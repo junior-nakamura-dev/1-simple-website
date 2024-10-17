@@ -1,14 +1,19 @@
-import './App.css'
-import Header from "./components/Header.tsx";
-import Footer from "./components/Footer.tsx";
-import Food from "./components/Food.tsx";
-import FoodModel from "./model/FoodModel.ts";
+import Card from "./components/Card.tsx";
+import Button from "./components/Button.tsx";
 
 function App() {
+    // return <>
+    //     <Header />
+    //     <Food foods={[new FoodModel('Banana'), new FoodModel('Apple')]} />
+    //     <Footer />
+    // </>
+
     return <>
-        <Header />
-        <Food foods={[new FoodModel('Banana'), new FoodModel('Apple')]} />
-        <Footer />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Button />
     </>
 }
 
