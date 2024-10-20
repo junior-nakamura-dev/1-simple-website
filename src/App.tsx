@@ -1,5 +1,4 @@
-import Card from "./components/Card.tsx";
-import Button from "./components/Button.tsx";
+import UserGreetings from "./components/UserGreetings.tsx";
 
 function App() {
     // return <>
@@ -8,12 +7,18 @@ function App() {
     //     <Footer />
     // </>
 
+    // return <>
+    //     <Card />
+    //     <Card />
+    //     <Card />
+    //     <Card />
+    //     <Button />
+    //     <Student student={new StudentModel( 30, true, 'Junior')} />
+    //     <Student student={new StudentModel( 35, false)} />
+    // </>
+
     return <>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Button />
+        <UserGreetings name='Junior' isLoggedIn={true} />
     </>
 }
 

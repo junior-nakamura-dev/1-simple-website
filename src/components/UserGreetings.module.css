@@ -1,0 +1,11 @@
+.welcome {
+    margin: 0;
+    background-color: hsl(120, 75%, 32%);
+    color: white;
+}
+
+.login {
+    margin: 0;
+    background-color: hsl(353, 75%, 32%);
+    color: white;
+}
