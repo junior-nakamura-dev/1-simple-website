@@ -1,4 +1,4 @@
-import List, {Fruit} from "./components/List.tsx";
+import Counter from "./components/Counter.tsx";
 
 function App() {
     // return <>
@@ -21,14 +21,23 @@ function App() {
     //     <UserGreetings name='Junior' isLoggedIn={true} />
     // </>
 
-    const fruits1 = [new Fruit(1, 'apple', 150), new Fruit(2, 'banana', 200)];
-    const fruits2 = [new Fruit(3, 'pineapple', 150), new Fruit(4, 'cocoa', 200)];
+    // const fruits1 = [new Fruit(1, 'apple', 150), new Fruit(2, 'banana', 200)];
+    // const fruits2 = [new Fruit(3, 'pineapple', 150), new Fruit(4, 'cocoa', 200)];
+    //
+    // return <div className="cardContainer">
+    //     <List  />
+    //     {fruits1.length > 0 && <List items={fruits1} />}
+    //     {fruits2.length > 0 && <List items={fruits2} />}
+    // </div>
+    //
+    // return <div>
+    //     <Button />
+    // </div>
 
-    return <div className="cardContainer">
-        <List  />
-        {fruits1.length > 0 && <List items={fruits1} />}
-        {fruits2.length > 0 && <List items={fruits2} />}
-    </div>
+    return <>
+        <Counter />
+    </>
+
 }
 
 export default App
