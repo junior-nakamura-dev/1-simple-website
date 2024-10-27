@@ -1,4 +1,4 @@
-import Counter from "./components/Counter.tsx";
+import Form from "./components/Form.tsx";
 
 function App() {
     // return <>
@@ -34,13 +34,13 @@ function App() {
     //     <Button />
     // </div>
 
-    return <>
-        <Counter />
-    </>
-
     // return <>
-    //     <Form />
+    //     <Counter />
     // </>
+
+    return <>
+        <Form />
+    </>
 
 }
 
